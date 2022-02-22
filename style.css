@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@200;400;600&family=Roboto+Condensed:wght@300&family=Yuji+Syuku&display=swap");
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(173, 242, 252);
+	display: flex;
+	flex-wrap: wrap;
+	font-family: "poppins", sans-serif;
+	margin: 0;
+}
+
+.note {
+	background-color: white;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin: 2rem;
+	height: 27.5rem;
+	width: 20rem;
+}
+
+.note .tools {
+	background-color: rgb(112, 250, 154);
+	display: flex;
+	justify-content: flex-end;
+	padding: 0.5rem;
+}
+
+.note .tools button {
+	background-color: transparent;
+	border: none;
+	color: whitesmoke;
+	font-size: 1.2rem;
+	margin-left: 0.5rem;
+	cursor: pointer;
+}
+
+.note .main {
+	background-color: #eee;
+	height: 27.5rem;
+	width: 100%;
+	overflow: hidden;
+}
+
+.note textarea {
+	outline: none;
+	font-family: inherit;
+	font-size: 1.2rem;
+	border: none;
+	height: 27.5rem;
+	width: 100%;
+}
+
+.note .hidden {
+	display: none;
+}
+
+.add {
+	background-color: #9ec862;
+	border-radius: 3px;
+	border: none;
+	color: white;
+	font-weight: bold;
+	padding: 0.5rem 1rem;
+	margin: 2rem auto;
+	display: block;
+	position: fixed;
+	top: -1rem;
+	right: 1rem;
+	height: 3rem;
+	font-size: 1rem;
+	cursor: pointer;
+}
